@@ -1,0 +1,245 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/*----------------------------------header header-top start---------------------------------------*/
+
+header {
+	width: 100%;
+	float: left;
+	background: url("../img/banner-home.png")no-repeat;
+	background-size: cover;
+    padding-bottom: 200px;
+}
+
+.header-top {
+	width: 100%;
+	float: left;
+}
+
+.logo {
+	width: 50%;
+	float: left;
+}
+.logo img{
+	padding-top: 30px;
+    padding-left: 25px;
+}
+
+.menu {
+	width: 50%;
+	float: left;
+}
+
+.menu ul {
+	list-style: none;
+    margin-top: 65px;
+    font-size: 14px;
+    margin-left: 60px;
+}
+.menu ul li {
+	display: inline-block;
+	color: white;
+	text-transform: uppercase;
+	font-family: arial;
+	margin: 0 25px;
+}
+.menu ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+/*-----------------------------------header hero start--------------------------------------*/
+
+.hero {
+	width: 100%;
+	float: left;
+	font-family: arial;
+}
+
+.hero h1 {
+	color: white;
+    font-size: 48px;
+    background-color: #00000069;
+    padding: 12px 30px;
+    margin-right: 610px;
+    margin-top: 100px;
+}
+.hero p {
+	color: white;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-right: 618px;
+    line-height: 21px;
+    margin-bottom: 36px;
+}
+.hero span {
+    border-bottom: 1px solid white;
+    padding: 0px 20px;
+}
+.hero button {
+	margin-top: 40px;
+    padding: 16px 78px;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+}
+
+/*---------------------------------section start----------------------------------------*/
+
+section	{
+	width: 100%;
+	float: left;
+}
+
+/*---------------------------------sec-white  start----------------------------------------*/
+
+.sec-white {
+	width: 100%;
+	float: left;
+	font-family: arial;
+	padding: 100px 0;
+	background-color: #f6f6f6;
+}
+.sec-white h1 {
+	color: #28282e;
+    font-size: 48px;
+    line-height: 65px;
+}
+.sec-white span {
+	border-bottom: 1px solid black;
+    padding: 0px 14px;
+}
+.sec-white p {
+	color: #888888;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-right: 723px;
+    line-height: 21px;
+}
+
+/*---------------------------------sec-black  start----------------------------------------*/
+
+.sec-black {
+	width: 100%;
+	float: left;
+	font-family: arial;
+	padding: 100px 0;
+	background-color: #28282e;
+}
+
+.sec-black h1 {
+	color: white;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.sec-black span {
+	border-bottom: 1px solid white;
+    padding: 0px 14px;
+}
+
+.sec-black p {
+	color: white;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-right: 750px;
+    line-height: 21px;
+}
+
+.sec-black button {
+	margin-top: 40px;
+    padding: 16px 40px;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+}
+
+
+/*-----------------------------------section positions--------------------------------------*/
+
+.box-container{
+	width: 1140px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.box {
+	position: absolute;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+.box1 {
+    top: 365px;
+    left: 400px;
+}
+.box2 {
+	top: 250px;
+    left: 515px;
+}
+.box3 {
+    top: 135px;
+    left: 630px;
+}
+.boxb {
+	top: 175px;
+    left: 630px;
+    background-color: #28282e;
+}
+.box4 {
+	top: 175px;
+    left: 690px;
+}
+.box5 {
+    top: 100px;
+    left: 870px;
+}
+.box6 {
+	top: 215px;
+    left: 985px;
+}
+.box7 {
+    top: 100px;
+    left: 1100px;
+}
+
+.cars3 {
+	position: absolute;
+	top: 140px;
+    right: -40px;
+}
+.cars5 {
+	position: absolute;
+	top: 650px;
+    right: -90px;
+}
+
+/*------------------------------------Footer start-------------------------------------*/
+
+footer {
+	width: 100%;
+	float: left;
+	font-family: arial;
+	background-color: #ef4035;
+	text-align: center;
+}
+footer p {
+	color: white;
+	margin: 35px 0;
+    font-size: 13px;
+}
+
+/*-------------------------------------------------------------------------*/

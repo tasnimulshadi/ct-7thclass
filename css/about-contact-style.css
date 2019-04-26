@@ -1,0 +1,236 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.box {
+	position: absolute;
+    height: 140px;
+    width: 140px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+/*----------------------------------header start---------------------------------------*/
+
+header {
+	width: 100%;
+	float: left;
+	padding-bottom: 20px;
+	border-bottom: 7px solid #e4e4e4;
+}
+
+.logo {
+	width: 50%;
+	float: left;
+}
+.logo img{
+	padding-top: 30px;
+    padding-left: 25px;
+}
+
+.menu {
+	width: 50%;
+	float: left;
+}
+
+.menu ul {
+	list-style: none;
+    margin-top: 65px;
+    font-size: 14px;
+    margin-left: 60px;
+}
+.menu ul li {
+	display: inline-block;
+	color: #005e7e;
+	text-transform: uppercase;
+	font-family: arial;
+	margin: 0 25px;
+}
+.menu ul li a {
+	text-decoration: none;
+	color: #005e7e;
+}
+
+/*-----------------------------------header end--------------------------------------*/
+
+/*------------------------------------contact section start-------------------------------------*/
+
+.contact-section {
+	width: 100%;
+	float: left;
+	font-family: arial;
+	background-color: #ef4035;
+}
+
+.contact-text {
+	width: 100%;
+	float: left;
+    padding-top: 50px;
+}
+.contact-text h1 {
+	color: white;
+    font-size: 48px;
+    line-height: 65px;
+}
+.contact-text p {
+	color: white;
+    font-size: 14px;
+    margin-top: 210px;
+    margin-right: 535px;
+    line-height: 21px;
+}
+
+.contact-form {
+	width: 100%;
+	float: left;
+	padding: 45px 0;
+}
+
+.form-div {
+	width: 40%;
+    float: left;
+}
+
+.form-control {
+	width: 100%;
+    float: left;
+}
+
+.form-control p {
+	text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+}
+.form-input {
+	background-color: #ff6258;
+    border-radius: 1px;
+    border: none;
+    width: 80%;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-top: 7px;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.form-control-btn {
+	width: 20%;
+    float: left;
+    margin-top: 80px;
+}
+
+.form-btn {
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    padding: 0 2px;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+}
+.form-btn:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*---positions----*/
+.box1 {
+    top: 145px;
+    right: 175px;
+    background-color: #28282e;
+}
+.box2 {
+	top: 145px;
+    right: 110px;
+}
+.cars5 {
+	position: absolute;
+    top: 135px;
+    left: 0px;
+}
+
+/*------------------------------------contact section end-------------------------------------*/
+
+/*------------------------------------about-section start-------------------------------------*/
+
+.about-section {
+	width: 100%;
+	float: left;
+	font-family: arial;
+	margin: 50px 0 100px 0;
+}
+
+.about-left {
+	width: 50%;
+	float: left;
+}
+.about-left h1 {
+	color: #28282e;
+    font-size: 48px;
+    line-height: 65px;
+}
+.about-left p {
+	color: #888888;
+    font-size: 14px;
+    margin-top: 40px;    
+    margin-right: 111px;
+    line-height: 21px;
+}
+
+.about-right{
+	width: 50%;
+	float: left;
+	position: relative;
+}
+.about-right p {
+	color: #888888;
+    font-size: 14px;
+    margin-top: 290px;
+    margin-right: 45px;
+    line-height: 21px;
+}
+
+/*---positions----*/
+.box3 {
+    top: 40px;
+    left: -45px;
+    background-color: #28282e;
+}
+.box4 {
+	top: 40px;
+    left: 25px;
+}
+.cars3 {
+	position: absolute;
+    top: 5px;
+    left: 45px;
+}
+
+/*------------------------------------about-section end-------------------------------------*/
+
+/*------------------------------------Footer start-------------------------------------*/
+
+footer {
+	width: 100%;
+	float: left;
+	font-family: arial;
+	background-color: #ef4035;
+	text-align: center;
+}
+footer p {
+	color: white;
+	margin: 35px 0;
+    font-size: 13px;
+}
+
+/*-------------------------------------------------------------------------*/
